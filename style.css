@@ -1,0 +1,165 @@
+header {
+  background-color: rgba(21, 30, 43, 0.877);
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+}
+
+.container {
+  width: 15rem;
+  margin: 0 auto;
+}
+
+img {
+  filter: grayscale(100%);
+}
+
+.search {
+  background-color: white;
+  padding: 0.3rem 0;
+  border-radius: 0.2rem;
+}
+
+.search form button {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.search form input {
+  border: none;
+  outline: none;
+}
+
+.hero {
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/repeated-square-dark.png");
+  padding: 10vh 0;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.hero h2 {
+  color: white;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 0.5rem;
+}
+
+.person img {
+  height: 7rem;
+  border-radius: 100%;
+}
+
+.start {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.start h3 {
+  margin-top: 0;
+}
+
+.personal {
+  text-align: center;
+}
+
+.info {
+  margin-bottom: 1.5rem;
+}
+
+.info img {
+  border-radius: 100%;
+}
+
+.info h4 {
+  margin: 0.3rem 0;
+}
+
+.address a {
+  text-decoration: none;
+  color: black;
+}
+
+.additional {
+  text-align: center;
+}
+
+.additional h5 {
+  font-size: 1.1rem;
+  margin: 0.5rem;
+  color: white;
+}
+
+.additional ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.664);
+}
+
+footer {
+  background-color: rgba(36, 56, 82, 0.877);
+  border-top: 1rem solid black;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 48rem;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .team,
+  .start p {
+    width: 48rem;
+    margin: 0 auto;
+  }
+
+  .person img {
+    width: 15rem;
+    height: 15rem;
+    margin-top: -8rem;
+  }
+
+  .hero {
+    padding: 25vh 0;
+  }
+
+  .personal {
+    display: flex;
+    justify-content: space-between;
+    width: 36rem;
+    margin: 0 auto;
+  }
+
+  .info {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding: 1rem;
+  }
+
+  .info img {
+    height: 8rem;
+  }
+
+  .contacts {
+    margin-left: 0.5rem;
+  }
+
+  .information {
+    display: flex;
+    justify-content: space-between;
+  }
+}
